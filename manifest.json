@@ -1,0 +1,27 @@
+{
+  "name": "Overcast Enhancement Suite",
+  "version": "1.0",
+  "description": "Overcast web experience sucks balls, hopefully this is helps",
+  "permissions": ["activeTab", "declarativeContent", "storage"],
+  "options_page": "options.html",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "page_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/pablo1.png",
+      "32": "images/pablo2.jpeg",
+      "48": "images/pablo3.jpeg",
+      "128": "images/pablo4.jpg"
+    }
+  },
+  "icons": {
+    "16": "images/pablo1.png",
+    "32": "images/pablo2.jpeg",
+    "48": "images/pablo3.jpeg",
+    "128": "images/pablo4.jpg"
+  },
+  "manifest_version": 2
+}
